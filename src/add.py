@@ -4,4 +4,6 @@ def add(num1, num2):
     return num1 + num2
 
 if __name__ == "__main__":
-    print("Sum of two number is: {}".format(add(2,3)))
+    num1 = int(input("Enter num1:"))
+    num2 = int(input("Enter num2:"))
+    print("Sum of two number is: {}".format(add(num1,num2)))
